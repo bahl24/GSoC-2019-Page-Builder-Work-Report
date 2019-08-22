@@ -64,9 +64,9 @@ The Page Builder is integrated with a new frontend template named Apodis, which 
 The editor interface is primarily built using VueJS, which is an open source JS framework for single page applications and building user interfaces. Vuex is being used to enable multiple VueJS components to get their state from a centralized Vuex store and can reactively and efficiently update whenever the store’s state changes. Using Vuex has made the codebase and architecture of page-builder much more modular, efficient and expandable for future extensions. It also enables us to keep track of events which change state and helps us in debugging using Vue Devtools Extension. The output of the Page Builder is in JSON format, which is stored in a MySQL table.
 
 <p align="center">
-  <img height="230" src="src/vuex-screenshot.png">
+  <img height="300" width="300px" src="src/vuex-screenshot.png">
   Vuex Devtools
-  <img src="src/vue-logo.svg">
+  <img height="300" width="200px" src="src/vue-logo.svg">
 </p>
 
 ## Open Source Tools/Frameworks used
